@@ -26,7 +26,7 @@ private:
 
         // Create a transformation message
         geometry_msgs::msg::TransformStamped transform_stamped;
-        transform_stamped.header.stamp = msg->header.stamp;
+        // transform_stamped.header.stamp = "imu_link";
         transform_stamped.header.frame_id = "imu_frame";  // Parent frame
         transform_stamped.child_frame_id = "base_link";   // Child frame
         transform_stamped.transform.translation.x = msg->angular_velocity.x;  // Assuming no translation

@@ -44,22 +44,22 @@ endif()
 # add_executable(not_sub src/not_sub.cpp)
 # ament_target_dependencies(not_sub rclcpp tf2 tf2_ros sensor_msgs)
 
-# add_executable(raw src/raw.cpp)
-# ament_target_dependencies(raw rclcpp tf2 tf2_ros sensor_msgs geometry_msgs tf2_geometry_msgs)
+add_executable(raw src/raw.cpp)
+ament_target_dependencies(raw rclcpp tf2 tf2_ros sensor_msgs geometry_msgs tf2_geometry_msgs)
 
 
 install(TARGETS
-  #raw
+  raw
   # not_sub
   # tur
   # tf_pub
   #sub
   DESTINATION lib/${PROJECT_NAME})
 
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Customimu.msg"
-  DEPENDENCIES geometry_msgs std_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
-)
+# rosidl_generate_interfaces(${PROJECT_NAME}
+#   "msg/Customimu.msg"
+#   DEPENDENCIES geometry_msgs std_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
+# )
 
 
 
