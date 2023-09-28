@@ -47,8 +47,13 @@ endif()
 add_executable(raw src/raw.cpp)
 ament_target_dependencies(raw rclcpp tf2 tf2_ros sensor_msgs geometry_msgs tf2_geometry_msgs)
 
+add_executable(time_bridge src/time_bridge.cpp)
+ament_target_dependencies(time_bridge rclcpp tf2 tf2_ros sensor_msgs)
+
+
 
 install(TARGETS
+  time_bridge
   raw
   # not_sub
   # tur
