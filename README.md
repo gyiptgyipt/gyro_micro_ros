@@ -3,7 +3,10 @@
 
 ### In this tutorial, we are trying to track the oreantation of MPU5050 sensor and visulize in Rbiz2.
 
-requirements : 
+### requirements :
+install imu tools from CCNY Robotics Lab to use filters.
+
+```sudo apt-get install ros-<YOUR_ROSDISTO>-imu-tools``` 
 
 ## First Step : Clone the repo and build 
 1. Go to your workspace and clone the repo.
@@ -42,4 +45,22 @@ In this project, I use wifi udp4 to get the data from micro_controller.
     ```ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888```
 
 
-## Need to continute read me:
+
+## Fourth step : 
+
+    Run time_bridge and imu_filter (time_bridge.cpp in nothing, It just sync time with ros2 system because I am not familiar with "rclc" micro_ros_arduino library's time stamp.)
+
+    ```ros2 run gyro_micro_ros time_bridge ```
+    
+    after subscribing and republishing imu data,we add filter. 
+
+    ```ros2 launch imu_filter_madgwick imu_filter.launch.py```
+
+
+# Open rviz2 and enjoy the imu visulization 
+
+## youtube video link : https://www.youtube.com/watch?v=9Fiira7s9Rk
+
+### future plans : -> making full tutorial video for this project , odom , SLAM 
+
+    
