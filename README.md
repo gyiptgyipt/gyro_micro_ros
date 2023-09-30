@@ -10,6 +10,7 @@ install imu tools from CCNY Robotics Lab to use filters.
 
 ## First Step : Clone the repo and build 
 1. Go to your workspace and clone the repo.
+
 ```git clone git@github.com:Htet-Wai-Yan-HWY/Gyro_micro_ros.git```
 
 2. build the project.
@@ -30,7 +31,7 @@ If you are using ArduinoIDE go to Arduino Code directory and just upload the cod
 ## Third Step : Run micro ros agent 
 
 If it not installed, 
-    ''' https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiM_7TW-KmBAxX_zjgGHT3RAvkQFnoECBEQAQ&url=https%3A%2F%2Fmicro.ros.org%2Fdocs%2Ftutorials%2Fcore%2Ffirst_application_linux%2F&usg=AOvVaw2JYKgRAihkJH-UZgYwhdhV&opi=89978449 '''
+''' https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiM_7TW-KmBAxX_zjgGHT3RAvkQFnoECBEQAQ&url=https%3A%2F%2Fmicro.ros.org%2Fdocs%2Ftutorials%2Fcore%2Ffirst_application_linux%2F&usg=AOvVaw2JYKgRAihkJH-UZgYwhdhV&opi=89978449 '''
 
 in that link you can use to upload firmware with that packages but there is a little probem with my machine, so I used above methods. And build and source declear that project in your ros2 workspace.
 
