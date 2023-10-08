@@ -52,9 +52,9 @@ If it already installed,  run micro ros agent
 
 ```ros2 run gyro_micro_ros time_bridge ```
     
-    after subscribing and republishing imu data,we add filter. 
+after subscribing and republishing imu data,we add filter. 
 
-    ```ros2 launch imu_filter_madgwick imu_filter.launch.py```
+```ros2 launch imu_filter_madgwick imu_filter.launch.py```
 
 
 # Open rviz2 and enjoy the imu visulization 

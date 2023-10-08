@@ -51,6 +51,10 @@ add_executable(time_bridge src/time_bridge.cpp)
 ament_target_dependencies(time_bridge rclcpp tf2 tf2_ros sensor_msgs)
 
 
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}/
+)
 
 install(TARGETS
   time_bridge
@@ -65,6 +69,7 @@ install(TARGETS
 #   "msg/Customimu.msg"
 #   DEPENDENCIES geometry_msgs std_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 # )
+
 
 
 
