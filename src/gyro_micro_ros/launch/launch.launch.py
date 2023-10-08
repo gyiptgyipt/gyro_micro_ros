@@ -8,12 +8,16 @@ from launch.actions import DeclareLaunchArgument, ExecuteProcess, TimerAction
 from launch.conditions import IfCondition
 from launch.substitutions import LaunchConfiguration, PythonExpression
 from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
+from launch_ros.substitutions import FindPackageShare
 
 
 def generate_launch_description():
+	
+	use_rviz = LaunchConfiguration('use_rviz')
 
 	madgwick_filter = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([os.path.join(get_package_share_directory('rom2109_controller'), 'launch', 'rom2109.launch.py')])
+        PythonLaunchDescriptionSource([os.path.join(get_package_share_directory('imu_filter_madgwick'), 'launch', 'imu_filter.launch.py')])
     )
 	
 	micro_ros_agent=ExecuteProcess(
@@ -29,12 +33,25 @@ def generate_launch_description():
     	# namespace='turtlesim1',
     	executable='time_bridge',
 		)
+	rviz_config_file = PathJoinSubstitution(
+        [FindPackageShare("gyro_micro_ros"), "rviz", "gyro.rviz"]
+    )
+	rviz_node = Node(
+        package="rviz2",
+        executable="rviz2",
+        condition=IfCondition(LaunchConfiguration('use_rviz')),
+        name="rviz2",
+        output="log",
+        arguments=["-d", rviz_config_file],
+    )
 
 
 	return LaunchDescription(
 		[
+            DeclareLaunchArgument('use_rviz', default_value='true', description='Use rviz.'),
 			madgwick_filter,
 			micro_ros_agent,
 			time_fill,
+			rviz_node,
 		]
 	)

@@ -44,7 +44,7 @@ rcl_node_t node;
 
   char *SSID =const_cast<char*>("Zyme"); // WIFI SSID
   char* PASSWORD=const_cast<char*>("lolspaw7"); //WIFI PASSWORD
-  char* HOST_IP =const_cast<char*>("192.168.10.102"); //host_ip
+  char* HOST_IP =const_cast<char*>("192.168.222.102"); //host_ip
 
 void error_loop(){
   while(1){

@@ -16,6 +16,7 @@ find_package(turtlesim REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(rviz2 REQUIRED)
 
 
 if(BUILD_TESTING)
@@ -53,12 +54,13 @@ ament_target_dependencies(time_bridge rclcpp tf2 tf2_ros sensor_msgs)
 
 install(DIRECTORY
   launch
+  rviz
   DESTINATION share/${PROJECT_NAME}/
 )
 
 install(TARGETS
   time_bridge
-  raw
+  #raw
   # not_sub
   # tur
   # tf_pub
