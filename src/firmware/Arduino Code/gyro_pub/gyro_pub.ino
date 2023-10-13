@@ -44,7 +44,7 @@ rcl_node_t node;
 
   char *SSID =const_cast<char*>("Zyme"); // WIFI SSID
   char* PASSWORD=const_cast<char*>("lolspaw7"); //WIFI PASSWORD
-  char* HOST_IP =const_cast<char*>("192.168.222.102"); //host_ip
+  char* HOST_IP =const_cast<char*>("192.168.162.102"); //host_ip
 
 void error_loop(){
   while(1){
@@ -189,6 +189,13 @@ void loop() {
   // imu_msg.header.stamp.nanosec = nsec;
   imu_msg.header.frame_id =  micro_ros_string_utilities_set(imu_msg.header.frame_id, "imu_link");
   // imu_msg.header.stamp = rmw_uros_epoch_millis();  //time syc to ros2 node need 
+
+  static unsigned long microsec = micros();
+  unsigned long sec = microsec/1000000;
+  unsigned long nsec = (microsec - sec*1000000)*1000;
+
+  imu_msg.header.stamp.sec = sec;
+  imu_msg.header.stamp.nanosec = nsec;
 
   imu_msg.linear_acceleration.x = a.acceleration.x;
   imu_msg.linear_acceleration.y = a.acceleration.y;

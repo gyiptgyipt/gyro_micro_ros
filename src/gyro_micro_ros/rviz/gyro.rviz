@@ -85,7 +85,7 @@ Visualization Manager:
         imu_frame_bridge:
           Value: true
         odom:
-          Value: false
+          Value: true
       Marker Scale: 1
       Name: TF
       Show Arrows: true
@@ -114,7 +114,7 @@ Visualization Manager:
         y_scale: 1.899999976158142
         z_scale: 0.25
       Class: rviz_imu_plugin/Imu
-      Enabled: true
+      Enabled: false
       Name: Imu
       Topic:
         Depth: 5
@@ -123,13 +123,13 @@ Visualization Manager:
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /imu/data
-      Value: true
+      Value: false
       fixed_frame_orientation: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: odom
-    Frame Rate: 30
+    Fixed Frame: imu_frame_bridge
+    Frame Rate: 32
   Name: root
   Tools:
     - Class: rviz_default_plugins/Interact
@@ -171,25 +171,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 2.3274600505828857
+      Distance: 0.5368067026138306
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.0027237478643655777
-        Y: 0.002430616645142436
-        Z: 0.016347579658031464
+        X: 0.04314938187599182
+        Y: -0.10880488902330399
+        Z: 0.6599671244621277
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.08539777994155884
+      Pitch: 1.5697963237762451
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.19038815796375275
+      Yaw: 2.295387029647827
     Saved: ~
 Window Geometry:
   Displays:
