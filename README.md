@@ -1,7 +1,7 @@
 # Gyro_micro_ros Tutorial 
 
 
-### In this tutorial, we are trying to track the oreantation of MPU5050 sensor and visulize in Rbiz2.
+### In this tutorial, we are trying to track the oreantation of MPU6050 sensor and visulize in Rviz2.
 
 ### requirements :
 install imu tools from CCNY Robotics Lab to use filters.
@@ -49,6 +49,10 @@ If it already installed,  run micro ros agent
 ## Fourth step : 
 
     Run time_bridge and imu_filter (time_bridge.cpp in nothing, It just sync time with ros2 system because I am not familiar with "rclc" micro_ros_arduino library's time stamp.)
+
+    and 
+    
+    don't forget to set value of use_magnetometer: false in imu_tools package because Mpu6050 don't have magnetometer.
 
 ```ros2 run gyro_micro_ros time_bridge ```
     

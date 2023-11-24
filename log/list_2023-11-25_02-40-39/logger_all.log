@@ -1,0 +1,162 @@
+[1.691s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/zyme/ros_ws/gyro_micro_ros']
+[1.691s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/zyme/ros_ws/gyro_micro_ros'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa7144c3310>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fa7144c2e60>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fa7144c2e60>>)
+[1.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.782s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zyme/ros_ws/gyro_micro_ros'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extension 'ignore'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extension 'ignore_ament_install'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extensions ['colcon_pkg']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extension 'colcon_pkg'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extensions ['colcon_meta']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extension 'colcon_meta'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extensions ['ros']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extension 'ros'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extensions ['cmake', 'python']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extension 'cmake'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extension 'python'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extensions ['python_setup_py']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros) by extension 'python_setup_py'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/log) by extensions ['ignore', 'ignore_ament_install']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/log) by extension 'ignore'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/log) ignored
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extensions ['ignore', 'ignore_ament_install']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extension 'ignore'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extension 'ignore_ament_install'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extensions ['colcon_pkg']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extension 'colcon_pkg'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extensions ['colcon_meta']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extension 'colcon_meta'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extensions ['ros']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extension 'ros'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extensions ['cmake', 'python']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extension 'cmake'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extension 'python'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extensions ['python_setup_py']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src) by extension 'python_setup_py'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extensions ['ignore', 'ignore_ament_install']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extension 'ignore'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extension 'ignore_ament_install'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extensions ['colcon_pkg']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extension 'colcon_pkg'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extensions ['colcon_meta']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extension 'colcon_meta'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extensions ['ros']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extension 'ros'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extensions ['cmake', 'python']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extension 'cmake'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extension 'python'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extensions ['python_setup_py']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware) by extension 'python_setup_py'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extensions ['ignore', 'ignore_ament_install']
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extension 'ignore'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extension 'ignore_ament_install'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extensions ['colcon_pkg']
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extension 'colcon_pkg'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extensions ['colcon_meta']
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extension 'colcon_meta'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extensions ['ros']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extension 'ros'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extensions ['cmake', 'python']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extension 'cmake'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extension 'python'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extensions ['python_setup_py']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code) by extension 'python_setup_py'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extensions ['ignore', 'ignore_ament_install']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extension 'ignore'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extension 'ignore_ament_install'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extensions ['colcon_pkg']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extension 'colcon_pkg'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extensions ['colcon_meta']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extension 'colcon_meta'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extensions ['ros']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extension 'ros'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extensions ['cmake', 'python']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extension 'cmake'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extension 'python'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extensions ['python_setup_py']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/Arduino Code/gyro_pub) by extension 'python_setup_py'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extensions ['ignore', 'ignore_ament_install']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extension 'ignore'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extension 'ignore_ament_install'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extensions ['colcon_pkg']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extension 'colcon_pkg'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extensions ['colcon_meta']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extension 'colcon_meta'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extensions ['ros']
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extension 'ros'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extensions ['cmake', 'python']
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extension 'cmake'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extension 'python'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extensions ['python_setup_py']
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/include) by extension 'python_setup_py'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extensions ['ignore', 'ignore_ament_install']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extension 'ignore'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extension 'ignore_ament_install'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extensions ['colcon_pkg']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extension 'colcon_pkg'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extensions ['colcon_meta']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extension 'colcon_meta'
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extensions ['ros']
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extension 'ros'
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extensions ['cmake', 'python']
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extension 'cmake'
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extension 'python'
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extensions ['python_setup_py']
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/lib) by extension 'python_setup_py'
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extensions ['ignore', 'ignore_ament_install']
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extension 'ignore'
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extension 'ignore_ament_install'
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extensions ['colcon_pkg']
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extension 'colcon_pkg'
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extensions ['colcon_meta']
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extension 'colcon_meta'
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extensions ['ros']
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extension 'ros'
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extensions ['cmake', 'python']
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extension 'cmake'
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extension 'python'
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extensions ['python_setup_py']
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/src) by extension 'python_setup_py'
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extensions ['ignore', 'ignore_ament_install']
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extension 'ignore'
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extension 'ignore_ament_install'
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extensions ['colcon_pkg']
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extension 'colcon_pkg'
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extensions ['colcon_meta']
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extension 'colcon_meta'
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extensions ['ros']
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extension 'ros'
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extensions ['cmake', 'python']
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extension 'cmake'
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extension 'python'
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extensions ['python_setup_py']
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/firmware/test) by extension 'python_setup_py'
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/gyro_micro_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/gyro_micro_ros) by extension 'ignore'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/gyro_micro_ros) by extension 'ignore_ament_install'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/gyro_micro_ros) by extensions ['colcon_pkg']
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/gyro_micro_ros) by extension 'colcon_pkg'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/gyro_micro_ros) by extensions ['colcon_meta']
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/gyro_micro_ros) by extension 'colcon_meta'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/gyro_micro_ros) by extensions ['ros']
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/gyro_micro_ros) by extension 'ros'
+[1.831s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zyme/ros_ws/gyro_micro_ros/src/gyro_micro_ros' with type 'ros.ament_cmake' and name 'gyro_micro_ros'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extension 'ignore'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extension 'ignore_ament_install'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extensions ['colcon_pkg']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extension 'colcon_pkg'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extensions ['colcon_meta']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extension 'colcon_meta'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extensions ['ros']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extension 'ros'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extensions ['cmake', 'python']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extension 'cmake'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extension 'python'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extensions ['python_setup_py']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zyme/ros_ws/gyro_micro_ros/src/test_ws) by extension 'python_setup_py'
+[1.832s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
