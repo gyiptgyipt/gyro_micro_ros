@@ -7,7 +7,7 @@
 install imu tools from CCNY Robotics Lab to use filters.
 
 ```
-sudo apt-get install ros-<YOUR_ROSDISTO>-imu-tools
+sudo apt-get install ros-<YOUR_ROSDISTRO>-imu-tools
 ``` 
 
 ## First Step : Clone the repo and build 
