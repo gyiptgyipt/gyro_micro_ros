@@ -1,7 +1,7 @@
 # Gyro_micro_ros Tutorial 
 
 
-### In this tutorial, we are trying to track the oreantation of MPU6050 sensor and visulize in Rviz2.
+### In this tutorial, we will try to track the oreantation of MPU6050 sensor and visulize in Rviz2.
 
 ### requirements :
 install imu tools from CCNY Robotics Lab to use filters.
