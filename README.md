@@ -14,7 +14,7 @@ sudo apt-get install ros-<YOUR_ROSDISTRO>-imu-tools
 1. Go to your workspace and clone the repo.
 
 ```
-git clone git@github.com:Htet-Wai-Yan-HWY/Gyro_micro_ros.git
+git clone git@github.com:gyiptgyipt/gyro_micro_ros.git
 ```
 
 2. build the project.
